@@ -272,16 +272,16 @@
   font-size: 1.1rem;
 }
 
-.homefooter .footer-links ul {
+.homefooter .homefooter-links ul {
   list-style: none;
   padding: 0;
 }
 
-.homefooter .footer-links li {
+.homefooter .homefooter-links li {
   margin: 8px 0;
 }
 
-.homefooter .footer-links a {
+.homefooter .homefooter-links a {
   color: #ffffff;
   text-decoration: none;
   font-size: 1rem;
@@ -289,20 +289,20 @@
   display: block;
 }
 
-.homefooter .footer-links a:hover {
+.homefooter .homefooter-links a:hover {
   color: #0ccff6;
   transform: translateX(5px);
   text-shadow: 0 0 10px rgba(12, 207, 246, 0.5);
 }
 
-.homesocial-icons, .payments {
+.homesocial-icons, .homepayments {
   display: flex;
   justify-content: center;
   gap: 15px;
   flex-wrap: wrap;
 }
 
-.homesocial-icons a, .homefooter .footer-payments a {
+.homesocial-icons a, .homefooter .homefooter-payments a {
   display: inline-block;
   width: 45px;
   height: 45px;
@@ -316,7 +316,7 @@
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-.homesocial-icons i, .homefooter .footer-payments i {
+.homesocial-icons i, .homefooter .homefooter-payments i {
   font-size: 1.2rem;
   color: #ffffff;
 }
