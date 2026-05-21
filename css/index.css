@@ -243,7 +243,7 @@
   to { opacity: 1; }
 }
 
-.homefooter .footer-grid {
+.homefooter .homefooter-grid {
   max-width: 1200px;
   margin: 0 auto;
   display: grid;
@@ -251,22 +251,22 @@
   gap: 40px;
 }
 
-.homefooter .footer-brand h3 {
+.homefooter .homefooter-brand h3 {
   color: #0ccff6;
   margin-bottom: 10px;
   font-size: 1.8rem;
 }
 
-.homefooter .footer-brand p {
+.homefooter .homefooter-brand p {
   opacity: 0.8;
   font-size: 0.95rem;
 }
 
-.homefooter .footer-links, .homefooter .footer-social, .homefooter .footer-rating, .homefooter .footer-payments {
+.homefooter .homefooter-links, .homefooter .homefooter-social, .homefooter .homefooter-rating, .homefooter .homefooter-payments {
   text-align: center;
 }
 
-.homefooter .footer-links h4, .homefooter .footer-social h4, .homefooter .footer-rating h4, .homefooter .footer-payments h4 {
+.homefooter .homefooter-links h4, .homefooter .homefooter-social h4, .homefooter .footer-rating h4, .homefooter .footer-payments h4 {
   color: #2116f8;
   margin-bottom: 20px;
   font-size: 1.1rem;
@@ -358,4 +358,103 @@
 
 /*Home*/
 
-/*Products*/
+/*enquiry*/
+
+/* Enquiry page layout */
+body.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #1e272e;
+    background-image: radial-gradient(circle at 50% 50%, rgba(20, 255, 180, 0.1) 0%, rgba(0, 0, 0, 0) 100%),
+    linear-gradient(135deg, #000000, #0a0a2e);
+}
+
+.enquiry{ 
+    min-height: 100vh;
+}
+
+.enquiryform-container{
+    background: rgba(72, 74, 67, 0.9);
+    padding: 2.5rem;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    width: 90%;
+    position: relative;
+    box-shadow: 0 0 40px rgba(20, 255, 180, 0.1);
+}
+
+.enquiryform-container label{
+    color: #fff;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+.enquiryform-container input[type="text"],
+.enquiryform-container textarea{
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 1rem;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+}
+.enquiryform-container input[type="email"]{
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 1rem;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+}
+.enquiryform-container input[type="tel"]{
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 1rem;
+    background: rgba(225, 255, 255, 0.1);
+    color:  #fff;
+}
+.enquiryform-container input[type="submit"]{
+    background: #14ffb4;
+    color: #000;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+}
+.enquiryform-container input[type="submit"]:hover{
+    transition: 0.3s ease;
+    background: #dde6e4;
+}
+.enquiryhomebutton{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.enquiryhomebutton .button {
+    background: #14ffb4;
+    color: #000;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+}
+.enquiryhomebutton .button:hover {
+    transition: 0.3s ease;
+    background: #879592;
+}
+.enquiryhomebutton .button a {
+    color: #000;
+    text-decoration: none;
+}
+

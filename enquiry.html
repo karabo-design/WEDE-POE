@@ -8,31 +8,34 @@
     <link rel="icon" href="hydraulics.first.img">
 </head>
 <body>
-   
+   <div class="enquiry">
+    <center>
     <h1>ENQUIRY</h1>
+    </center>
 
-<div class="enquiry">
-        <div class="homebutton">
+        <div class="enquiryhomebutton">
    <button class="button">
             <a href="index.html">HOME</a>
             </div>
         </button> 
-            </div>
+            
    
     
     <br>
-<div class="form-container">
+<div class="enquiryform-container">
    <form action="mailto:karabomamaila@icloud.com" method="post" enctype="text/plain">
     <label for="name">Name:</label><br>
-    <input type="text" id="name" name="name"><br>
+    <input type="text" id="name" name="name" required><br>
     <label for="email">Email:</label><br>
-    <input type="email" id="email" name="email"><br>
-    <label>Phone number:</label><br>
-    <input type="tel" id="phone" name="phone"><br>
+    <input type="email" id="email" name="email" required><br>
+    <label for="phone">Phone number:</label><br>
+    <input type="tel" id="phone" name="phone" autocomplete="tel" required><br>
     <label for="message">Message:</label><br>
-    <textarea id="message" name="message"></textarea><br>
+    <textarea id="message" name="message" rows="6" required></textarea><br>
     <input type="submit" value="Submit">
     </div>
     </div>
+</div>
 </body>
 </html>
+
