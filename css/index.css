@@ -480,7 +480,6 @@ body.body{
 
 }
 
-
 .about-nav ul{
   margin:0;
   padding:14px 20px;
@@ -573,4 +572,121 @@ body.body{
   .about-page{padding: 18px 12px 40px;}
   .about-card{padding: 14px;}
   .about-card .content{padding: 14px;}
+}
+
+/*contact*/
+:root{
+  /* Brand/theme variables used across pages */
+  --brand: #0ccff6;
+  --brand2: #2116f8;
+  --muted: rgba(255,255,255,.75);
+
+  /* About page theme */
+  --about-dark-blue: #0b1238;
+}
+
+/* Top navigation */
+.contact-nav{
+  position: sticky;
+
+  top: 0;
+  z-index: 10;
+  background: rgba(11, 18, 56, 0.70);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255,255,255,.08);
+
+}
+
+.contact-nav ul{
+  margin:0;
+  padding:14px 20px;
+  list-style:none;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:flex-start;
+  gap:12px;
+}
+
+.contact-nav a{
+  color:var(--brand2);
+  background: rgba(12, 207, 246, 0.10);
+  border: 1px solid rgba(12, 207, 246, 0.25);
+  text-decoration:none;
+  padding:10px 14px;
+  border-radius:999px;
+  font-weight:600;
+  transition: all .2s ease;
+}
+
+.contact-nav a:hover{
+  color:#000;
+  background: linear-gradient(135deg, var(--brand2), var(--brand));
+  border-color: transparent;
+  transform: translateY(-1px);
+}
+
+/* Layout */
+.contact-page{
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 28px 18px 60px;
+}
+
+.contact-hero{
+  margin-top: 10px;
+  margin-bottom: 18px;
+  text-align:left;
+}
+
+.contact-hero h1{
+  margin: 0 0 10px;
+  font-size: clamp(28px, 3vw, 44px);
+  letter-spacing: .5px;
+}
+
+.contact-hero p{
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.6;
+  font-size: 1.05rem;
+}
+
+.contact-card{
+  background: rgba(72, 74, 67, 0.35);
+  border: 1px solid rgba(255,255,255,.10);
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 20px 50px rgba(0,0,0,.35);
+  backdrop-filter: blur(10px);
+}
+
+.contact-card .content{
+  background: rgba(0,0,0,.08);
+  border: 1px solid rgba(255,255,255,.06);
+  border-radius: 12px;
+  padding: 18px;
+}
+
+.contact-card p{
+  margin: 0;
+  line-height: 1.75;
+  color: rgba(255,255,255,.92);
+  font-size: 1.02rem;
+}
+
+.contact-card img{
+  display:block;
+  width: 100%;
+  max-width: 780px;
+  margin: 18px auto 0;
+  border-radius: 14px;
+  border: 1px solid rgba(255,255,255,.12);
+}
+
+/* Responsive */
+@media (max-width: 600px){
+  .contact-nav ul{padding: 12px 12px;}
+  .contact-page{padding: 18px 12px 40px;}
+  .contact-card{padding: 14px;}
+  .contact-card .content{padding: 14px;}
 }
