@@ -9,26 +9,39 @@
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-    <center>
-        <h1>YOUR CART</h1>
-        <div id="cart-container">
-            <p id="empty-msg">YOUR CART IS CURRENTLY UNAVAIBLE.</p>
+    <div class="cart-page">
+        <div class="cart-hero">
+            <h1>YOUR CART</h1>
+            <p class="cart-subtitle">Secure checkout is coming soon.</p>
+
+            <div class="cart-toolbar" aria-label="Cart summary">
+                <i class="fa-solid fa-cart-arrow-down" aria-hidden="true"></i>
+                <span class="cart-count-label">Items:</span>
+                <span id="cart-count">0</span>
+                <i class="fa-solid fa-xmark cart-close" aria-hidden="true" title="Remove items" style="display:none"></i>
+            </div>
         </div>
 
-        <i class="fa-solid fa-xmark"></i>
-        <i class="fa-solid fa-cart-arrow-down"></i>
-        <span id="cart-count">0</span>
-
-        <div class="image">
-            <img src="assets/ChatGPT Image May 2, 2026, 01_29_20 AM.png" width="100%">
+        <div class="cart-card" id="cart-container">
+            <p id="cartempty-msg">YOUR CART IS CURRENTLY UNAVAILABLE.</p>
+            <div class="cart-empty-details">
+                <p>Everything you love is just one click away.</p>
+                <div class="cart-image">
+                    <img src="assets/ChatGPT Image May 2, 2026, 01_29_20 AM.png" alt="Cart illustration" />
+                </div>
+                <div class="cart-status">
+                    <hr />
+                    <p>STILL UNDERCONSTRUCTION.</p>
+                    <hr />
+                </div>
+            </div>
         </div>
-        <hr>
-        <p>STILL UNDERCONSTRUCTION.</p>
-        <div class="button">
-        <button><a href="products.html">CONTINUE SHOPPING</a></button>
-        </div>
-    </center>
 
+        <div class="cart-actions">
+            <button class="cartprimary-btn">
+                <a href="products.html">CONTINUE SHOPPING</a>
+            </button>
+        </div>
+    </div>
 </body>
 </html>
-

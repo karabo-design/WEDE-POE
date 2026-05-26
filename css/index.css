@@ -804,6 +804,29 @@ body.body{
     color: #000;
 }
 
+.next-button button {
+    background: #2116f8;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+}
+
+.next-button button:hover {
+    background: #0ccff6;
+    color: #000;
+    scale: 1.05;
+    transition: background 0.3s ease,
+}
+
+.next-button button a {
+    color: #fff;
+    text-decoration: none;
+}
+
 /* Responsive Grid */
 @media (max-width: 768px) {
     .product-grid {
@@ -938,6 +961,187 @@ body.body{
 @media (max-width: 480px) {
     .product-grid {
         grid-template-columns: 1fr;
+    }
+}
+
+/*cart*/
+
+
+
+.cart-page {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 34px 18px 60px;
+}
+
+.cart-hero {
+    text-align: center;
+    padding: 18px 10px 26px;
+}
+
+.cart-hero h1 {
+    margin: 0;
+    font-size: clamp(2rem, 4vw, 3rem);
+    letter-spacing: 0.03em;
+    font-weight: 800;
+    background: linear-gradient(90deg, var(--brand-2), var(--brand-1));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.cart-subtitle {
+    margin: 10px auto 0;
+    max-width: 680px;
+    opacity: 0.9;
+}
+
+.cart-toolbar {
+    margin: 18px auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 16px;
+    border-radius: 999px;
+    background: rgba(88, 56, 231, 0.712);
+    border: 1px solid rgba(89, 51, 51, 0.945);
+    backdrop-filter: blur(12px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+.cart-toolbar i {
+    color: #e2e4e9;
+    font-size: 1.15rem;
+}
+
+.cart-count-label {
+    font-weight: 700;
+    opacity: 0.95;
+}
+
+#cart-count {
+    font-weight: 900;
+    color: var(--brand-2);
+    font-size: 1.15rem;
+}
+
+.cart-close {
+    color: #fdbdbd;
+}
+
+.cart-card {
+    margin: 26px auto 0;
+    max-width: 860px;
+    border-radius: 22px;
+    background: var(--card);
+    border: 1px solid var(--card-border);
+    box-shadow: var(--shadow);
+    backdrop-filter: blur(16px);
+    overflow: hidden;
+}
+
+#cartempty-msg {
+    margin: 0;
+    padding: 18px 18px 0;
+    text-align: center;
+    font-weight: 800;
+    color: #2112eb;
+}
+
+.cart-empty-details {
+    padding: 10px 18px 22px;
+    text-align: center;
+}
+
+.cart-empty-details > p {
+    margin: 10px 0 16px;
+    opacity: 0.95;
+}
+
+.cart-image {
+    width: min(460px, 90%);
+    margin: 0 auto;
+    border-radius: 18px;
+    overflow: hidden;
+    border: 1px solid rgba(31, 7, 7, 0.16);
+    background: rgba(0, 0, 0, 0.12);
+}
+
+.cart-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.cart-status {
+    margin-top: 14px;
+    opacity: 0.95;
+}
+
+.cart-status hr {
+    border: 0;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.18);
+    margin: 14px auto;
+    width: 80%;
+}
+
+.cart-status p {
+    margin: 0;
+    font-weight: 900;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+    opacity: 0.9;
+}
+
+.cart-actions {
+    margin-top: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+.cartprimary-btn {
+    border: 0;
+    background: linear-gradient(135deg, var(--brand-1), var(--brand-2));
+    color: #071020;
+    font-weight: 900;
+    letter-spacing: 0.02em;
+    padding: 12px 18px;
+    border-radius: 14px;
+    cursor: pointer;
+    transition: transform 0.18s ease, box-shadow 0.18s ease, filter 0.18s ease;
+    box-shadow: 0 10px 30px rgba(33, 22, 248, 0.32);
+}
+
+.cartprimary-btn a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.cartprimary-btn:hover {
+    transform: translateY(-2px) scale(1.02);
+    box-shadow: 0 18px 45px rgba(12, 207, 246, 0.25);
+    filter: brightness(1.05);
+}
+
+@media (max-width: 520px) {
+    .cart-page {
+        padding-top: 22px;
+    }
+
+    .cart-toolbar {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    #cartempty-msg {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .cart-card {
+        border-radius: 18px;
     }
 }
 
