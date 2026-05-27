@@ -216,6 +216,12 @@
   box-shadow: 0 10px 25px rgba(33, 22, 248, 0.4);
 }
 
+.homecard-overlay a {
+    color: #fff;
+  text-decoration: none;
+}
+
+/*footer*/
 .homefooter {
   background: linear-gradient(135deg, #0f0f23 0%, #1a1a2e 50%, #16213e 100%);
   color: #ffffff;
