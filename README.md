@@ -43,12 +43,6 @@ Because this is a **static** site, you can run it in any browser.
 ### Option B: Use a local static server (recommended)
 Some browsers are stricter about file-based access; using a server is more reliable.
 
-If you have Python installed, run from the project folder:
-
-```bash
-python -m http.server 5500
-```
-
 Then open:
 - `http://localhost:5500/index.html`
 
