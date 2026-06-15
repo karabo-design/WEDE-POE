@@ -1,0 +1,17 @@
+# Basic performance/security headers for static hosting (Apache)
+
+<IfModule mod_headers.c>
+  # Prevent MIME sniffing
+  Header set X-Content-Type-Options "nosniff"
+
+  # Basic cache control (adjust if you deploy differently)
+  <FilesMatch "\.(css|js|png|jpg|jpeg|gif|svg|webp|ico)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+
+  # HTML should be cacheable but revalidated
+  <FilesMatch "\.(html)$">
+    Header set Cache-Control "public, max-age=3600"
+  </FilesMatch>
+</IfModule>
+

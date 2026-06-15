@@ -7,6 +7,7 @@
     <title>cart</title>
     <link rel="stylesheet" href="css/index.css">
     <link rel="icon" href="assets/icon.png">
+   <script src="js/javascript.js" defer></script>
 </head>
 <body>
     <div class="cart-page">
@@ -23,6 +24,10 @@
 
         <div class="cart-card" id="cart-container">
             <p id="cartempty-msg">YOUR CART IS CURRENTLY UNAVAILABLE.</p>
+
+            <div id="cart-items"></div>
+            <div id="cart-totals" style="display:none"></div>
+
             <div class="cart-empty-details">
                 <p>Everything you love is just one click away.</p>
                 <div class="cart-image">
@@ -35,6 +40,7 @@
                 </div>
             </div>
         </div>
+
 
         <div class="cart-actions">
             <button class="cartprimary-btn">

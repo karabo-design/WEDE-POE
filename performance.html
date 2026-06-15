@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Performance Notes</title>
+</head>
+<body>
+  <h1>Performance improvements checklist</h1>
+  <ul>
+    <li>Compress/resize images in <code>assets/</code> and serve modern formats (WebP/AVIF).</li>
+    <li>Add <code>width</code> and <code>height</code> attributes to <code><img></code> tags.</li>
+    <li>Ensure only one JavaScript file is loaded (remove unused scripts like cart.js on pages that don’t use it).</li>
+    <li>Enable caching via server headers (see <code>.htaccess</code> for Apache).</li>
+  </ul>
+</body>
+</html>
+

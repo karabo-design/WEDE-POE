@@ -1,0 +1,23 @@
+User-agent: *
+
+# Content pages we want indexed
+Allow: /index.html
+Allow: /products.html
+Allow: /about.html
+Allow: /contact.html
+Allow: /enquiry.html
+Allow: /more.html
+
+# Static assets (images, css, js)
+Allow: /assets/
+Allow: /css/
+Allow: /js/
+
+# Pages not ready / not meant for indexing
+Disallow: /cart.html
+
+# Sitemap
+Sitemap: https://www.hydraulicsstores.co.za/sitemap.xml
+
+
+

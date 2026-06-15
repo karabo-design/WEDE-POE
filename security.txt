@@ -1,0 +1,10 @@
+# Security Policy
+# Contact: security@hydraulicsstores.co.za
+
+Contact: security@hydraulicsstores.co.za
+Preferred-Languages: en
+
+# Lines below are informational and may be adjusted to match your processes
+Encryption: https://www.hydraulicsstores.co.za/
+Acknowledgments: https://www.hydraulicsstores.co.za/
+
