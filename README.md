@@ -59,3 +59,13 @@ Then open:
 - Update/replace images in: `assets/`
 - Update page content in the corresponding `.html` files.
 
+
+##Pictures of GUI
+<img width="1254" height="1254" alt="icon" src="https://github.com/user-attachments/assets/cfd663f6-ba85-4ac0-8571-147dbd12ef62" />
+<img width="720" height="947" alt="koloi" src="https://github.com/user-attachments/assets/470dfe3a-33c7-4d76-82ce-515e4bacb9ad" />
+<img width="720" height="951" alt="pic" src="https://github.com/user-attachments/assets/e15e5796-ed35-4c11-9d6f-0e3b4bf58eff" />
+<img width="990" height="1238" alt="swgg" src="https://github.com/user-attachments/assets/88e20870-d7d0-4182-a260-b88a4b35ff98" />
+<img width="800" height="1000" alt="g-DSC00791-1-800x1000" src="https://github.com/user-attachments/assets/ce4fb4ac-bf3a-4780-a967-ce8f30b48dc9" />
+<img width="768" height="960" alt="02-hydro-2026-week-02-1114-768x960" src="https://github.com/user-attachments/assets/cd1c25dc-8525-4bca-9f8f-bee5e1495e14" />
+<img width="990" height="1238" alt="shorty" src="https://github.com/user-attachments/assets/65c20bd1-d910-4098-8301-6e3fcfd428ae" />
+
