@@ -60,7 +60,7 @@ Then open:
 - Update page content in the corresponding `.html` files.
 
 
-##Pictures of GUI
+## Pictures of GUI
 <img width="1254" height="1254" alt="icon" src="https://github.com/user-attachments/assets/cfd663f6-ba85-4ac0-8571-147dbd12ef62" />
 <img width="720" height="947" alt="koloi" src="https://github.com/user-attachments/assets/470dfe3a-33c7-4d76-82ce-515e4bacb9ad" />
 <img width="720" height="951" alt="pic" src="https://github.com/user-attachments/assets/e15e5796-ed35-4c11-9d6f-0e3b4bf58eff" />
