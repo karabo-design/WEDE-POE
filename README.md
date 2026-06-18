@@ -61,11 +61,11 @@ Then open:
 
 
 ## Pictures of GUI
-<img width="1254" height="1254" alt="icon" src="https://github.com/user-attachments/assets/cfd663f6-ba85-4ac0-8571-147dbd12ef62" />
-<img width="720" height="947" alt="koloi" src="https://github.com/user-attachments/assets/470dfe3a-33c7-4d76-82ce-515e4bacb9ad" />
-<img width="720" height="951" alt="pic" src="https://github.com/user-attachments/assets/e15e5796-ed35-4c11-9d6f-0e3b4bf58eff" />
-<img width="990" height="1238" alt="swgg" src="https://github.com/user-attachments/assets/88e20870-d7d0-4182-a260-b88a4b35ff98" />
-<img width="800" height="1000" alt="g-DSC00791-1-800x1000" src="https://github.com/user-attachments/assets/ce4fb4ac-bf3a-4780-a967-ce8f30b48dc9" />
-<img width="768" height="960" alt="02-hydro-2026-week-02-1114-768x960" src="https://github.com/user-attachments/assets/cd1c25dc-8525-4bca-9f8f-bee5e1495e14" />
-<img width="990" height="1238" alt="shorty" src="https://github.com/user-attachments/assets/65c20bd1-d910-4098-8301-6e3fcfd428ae" />
+<img width="1893" height="970" alt="image" src="https://github.com/user-attachments/assets/f8ee4cc1-9587-4c09-9ab9-8823f2af0e71" />
+<img width="1878" height="962" alt="image" src="https://github.com/user-attachments/assets/34f45e05-8a5e-43ba-b0ff-780d6dcd5860" />
+<img width="1878" height="962" alt="image" src="https://github.com/user-attachments/assets/5f1193a2-1950-44dc-a86f-22320c91a52e" />
+<img width="1888" height="958" alt="image" src="https://github.com/user-attachments/assets/8d5657ca-444b-4bc7-a636-bb739434c67a" />
+<img width="1886" height="956" alt="image" src="https://github.com/user-attachments/assets/7017d78f-07f0-48f5-9863-02ee694f73b7" />
+<img width="1890" height="968" alt="image" src="https://github.com/user-attachments/assets/ab661a8b-f45c-4b5d-9fa2-fe6e6d6f1455" />
+<img width="1886" height="973" alt="image" src="https://github.com/user-attachments/assets/71edb993-2654-44d8-85e9-c115589beb77" />
 
